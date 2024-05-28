@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.details_container{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+    
+   
+    
+}
+/* nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: antiquewhite;
+    height: 100%;
+    
+} */
+ /* .input{
+    background-color: beige;
+    color: rgb(26, 243, 62);
+    font-size: 20px;
+
+} */
+input[list]::placeholder {
+    color: rgb(236, 128, 128); /* Change placeholder text color as an example */
+}
+input[list]{
+    background-color: rgb(206, 230, 230);
+    border-radius: 1px;
+}
+h1{
+    color: rgb(21, 237, 68);
+    font-family: "Pacifico", cursive;
+    font-size: 3rem;
+    box-shadow: 3px 3px 5px  #83aaeed3 ;
+
+}
+h2{
+    color: brown;
+    text-align: center;
+}
+.main_heading{
+    text-align: center;
+}
+
+mark{
+    background-color: rgb(249, 230, 203);
+    border-radius: 50%;
+    font-family:serif;
+    font-style: oblique;
+    font-size: 1rem;
+    color: rgb(243, 13, 36);
+    margin: 5px;
+    border: 2px groove rgb(227, 237, 227);
+
+}
+label{
+    padding-left: 25px;
+    padding-right: 10px;
+    font-family:'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    width: 200px;
+    
+}
+input{
+    height: 20px;
+    border: 2px inset gray;
+    width: 250px;
+
+} 
+input:hover{
+    border: 3px groove #1867f0c4;
+    box-shadow: 3px 3px 5px  #83aaeed3 ;
+}
+form{
+    margin-bottom: 30px;
+}
+h3{
+    color: #055355;
+    font-size: 25px;
+}
+legend{
+    color: #055355;
+    font-size: 25px;
+}
+.address{
+    display:inline-block;
+    width: 150px;
+    margin: 20px;
+    
+} 
+ .address1{
+    display: flex;
+    flex-direction: row;
+   margin-bottom: 15px;
+    
+    margin: 20px;
+    
+}  
+.more_info{
+    height: 40px;
+    width: 250px;
+}
+.button{
+    text-align: center;
+    
+
+}
+button{
+    height: 30px;
+    width: 80px;
+    background-color: aqua;
+    color: rgb(108, 117, 117);
+    border-radius: 12px;
+    margin-top: 10px;
+} 
+.more_info_div{
+    display: flex;
+    flex-direction: row;
+   
+    align-items: center;
+  
+    
+
+}
